@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+.div__god{
+    background-color: #fcf6f6;
+    margin: 0rem;
+	padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header__top{
+    background-color: rgb(24, 146, 202);
+    display: flex;
+    justify-content: space-between;
+}
+ .header__p {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.header__icons{
+    box-sizing: 1rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo__img{ 
+    width: 10rem;
+    height: 10rem; 
+}
+.header__ul{
+    display: flex;
+    background-color: rgb(76, 172, 216);
+    margin-bottom: 2rem;
+}
+.button{
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.6rem 2.5rem 0.6rem 2.5rem ;
+}
+.button__li{
+    color:black;
+    cursor: pointer;
+ 
+}
+.button__li--a{
+    color:antiquewhite;
+    cursor: pointer;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+
+}
+.carrito{
+    height: 1.2rem;
+    width: 3rem;
+    cursor: pointer;
+}
